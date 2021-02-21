@@ -1,0 +1,53 @@
+body{
+	font-family: 'Spartan', sans-serif;
+}
+h1{
+	padding: 7% 7% 0 7%;
+	margin-bottom: 0;
+	line-height: 33px;
+	display: inline-flex;
+	position: relative;
+}
+.magenta, .fiveStars{
+	color: hsl(300, 43%, 22%);
+}
+.welcome{
+	padding-left: 7%;
+	color: hsl(303, 10%, 53%);
+	font-size: 15px;
+	margin-top: 1px;
+	display: table;
+	width: 40%;
+	position: absolute;
+}
+.fiveStars{
+	background-color: hsl(300, 24%, 96%);
+	background-image: url('images/icon-star.svg'), url('images/icon-star.svg'), 
+	url('images/icon-star.svg'), 
+	url('images/icon-star.svg'), 
+	url('images/icon-star.svg');
+	background-repeat: no-repeat;
+	background-position: 24px, 48px, 72px, 96px, 120px;
+	text-align: right;
+	width: 30%;
+	margin: 10px 20px 10px 900px;
+	padding: 15px;
+	border-radius: 6px;
+
+}
+.reviews{
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 6px;
+	padding: 15px;
+	display: inline-block;
+	position: center;
+	color: white;
+}
+}
+.buyer{
+	color: hsl(333, 80%, 67%);
+	margin-top: -5px;
+}
+.customer{
+	margin-bottom: 10px;
+}
